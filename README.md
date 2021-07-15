@@ -30,6 +30,7 @@ This repo is structured as follows. First, you will find all handouts/lectures i
 
 Lectures are organized in a way so that the most of the time is spent learning-by-doing. Folder **exercises** will contain problems you will focus on during the class.
 
+Exercises in this repo do not have autograde. Please see the `README.md` file in the `exercises` folder for more details. 
 
 ## Licence
 
