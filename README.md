@@ -2,9 +2,9 @@
 
 - **Description**: Provides a thorough overview of programming in R.  
 - **Year**: 2021/2022.  
-- **Instructor**: Jordi Llorens  
+- **Instructor**: Jordi Llorens
 
-## Installation:
+## Installation
 
 - You must install R (https://cloud.r-project.org) and Rstudio (https://www.rstudio.com/products/rstudio/download/#download)
 - If you are not familiar with R, you may complete the swirl tutorial. This is an R package that turns the R console into an interactive learning environment. You can easily install it by entering the following command in the R console:
