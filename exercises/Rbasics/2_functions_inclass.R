@@ -28,30 +28,26 @@ meanme <- function(x, loop = FALSE, na.rm = FALSE) {
   
   # first verify that input, x, has the expected form, using "stopifnot" fnc
   # e.g. it should be an atomic vector
-  stopifnot(is.atomic(x))
+  # YOUR CODE
   # it should also be a numeric vector
-  stopifnot(is.numeric(x))
+  # YOUR CODE
   # this is called defensive programming, preventing unexpected inputs
   # and warning user about it, check "assertthat" package
   
   # always take into account exceptions, e.g. numeric vectors often 
   # have missing values. If "na.rm" is set to TRUE remove them from x
   if (na.rm) {
-    x <- x[ !is.na(x) ]
+    # YOUR CODE
   }
   
   # we will have two ways of computing the mean, one will be with a loop
   # if "loop" argument is set to TRUE
   if (loop) {
-    S <- 0
-    for (i in 1:length(x)){
-      S <- S + x[i]
-    }
-    result <- S / length(x)
+    # YOUR CODE    
     # in the second way will be by using matrix operations 
     # to compute the sum (%*% or crossprod fnc)
   } else {
-    result <- x %*% rep(1,length(x)) / length(x)
+    # YOUR CODE
   }
   
   return(c(result))
